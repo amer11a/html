@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><i>Flight Booking Website
+        </i></h1>
+    <img src="/img/sky.png" alt="">
+    <h2>Home</h2>
+    <p>We're thrilled to have you here at Skyscanner.com, your one-stop online platform for all your travel
+        aspirations. Whether you're a seasoned globetrotter or embarking on your very first adventure, we're here to
+        turn your travel dreams into reality.
+
+        At Skyscanner.com, we understand that the journey begins long before you board the plane. It starts with
+        the excitement of discovering new horizons, immersing yourself in different cultures, and creating memories that
+        last a lifetime. Our mission is simple yet profound: to make your travel experience as effortless and
+        exhilarating as possible.</p>
+    <h2>What We Offer:</h2>
+    <ol>
+        <li>flight booking</li>
+        <li>exploring destinations</li>
+
+    </ol>
+    <h2>customer reviews</h2>
+    <img src="/img/37dec4fb-8aa2-468f-8273-4093f38f05a5.jpg" alt="" width="100">
+    <h4>Name</h4>
+    <p>abdul kareem</p>
+    <p>&#9733; &#9733; &#9733; &#9733;</p>
+    <p>i have been using this website since a long time and everytime i use this website it impresses me by giving me
+        the correct price and service</p><br>
+    <h3>Users can submit their own reviews here</h3>
+    <form action="/forms">
+        <label for="uname">User Name</label>
+        <input type="text" id="uname" name="uname" placeholder="enter your name "><br>
+        <label for="rating">Rating</label>
+        <select name="select" id="rating">
+            <option>select </option>
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="for">4</option>
+            <option value="five">5</option>
+        </select><br>
+        <label for="fnm"> Flight number</label>
+        <input type="number" id="fnm" name="fnm" placeholder="enter your flight number,"><br>
+        <label for="fdate"> Flight date</label>
+        <input type="date" id="fdate" name="fdate" placeholder="enter your  flight date"><br>
+        <label for="review">Review:</label><br>
+        <textarea name="review" placeholder="please enter your review" id="" cols="30" rows="5"></textarea>
+
+    </form>
+    <div>
+        <h2>Flights Section</h2>
+        <select name="departure" id="departure">
+            <option>departure</option>
+            <option value="hyd"> Hyderabad</option>
+            <option value="banglore"> Bangalore</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+        <select name="destination" id="dest">
+            <option>choose destination</option>
+            <option value="hyd"> Hyderabad</option>
+            <option value="banglore"> Bangalore</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+        </select><br>
+        <form action="/hell">
+            <label for="dep">departure date</label>
+            <input type="date" id="dep" name="dep"><br>
+            <label for="ret">add return date</label>
+            <input type="date" id="ret" name="ret"><br>
+            <select name="pass" id="pass">
+                <option>select passengers</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+            </select><br>
+            <label for="range">price range</label>
+            <input type="range" id="range" min="2000" max="5000" value="2500"><br>
+            <select name="class" id="class">
+                <option> cabin class</option>
+                <option value="eco">economy</option>
+                <option value="pre">economy premium</option>
+                <option value="business class">business class</option>
+                <option value="first class">first class</option>
+            </select>
+
+        </form>
+    </div>
+    <div>
+        <h2>Flight Timings Section</h2>
+        <table>
+            <caption> International Airport Timetable for All Flights</caption>
+            <thead>
+                <tr>
+                    <th>time</th>
+                    <th>flight</th>
+                    <th>destination</th>
+                    <th>gate</th>>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7:30</td>
+                    <td>A411</td>
+                    <td>new york</td>
+                    <td>A12</td>
+                </tr>
+                <tr>
+                    <td>7:56</td>
+                    <td>LH417</td>
+                    <td>frankfrt</td>
+                    <td>A26</td>
+                </tr>
+                <tr>
+                    <td>7:59</td>
+                    <td>AF204</td>
+                    <td>paris</td>
+                    <td>CO3</td>
+                </tr>
+                <tr>
+                    <td>8:12</td>
+                    <td>BA616</td>
+                    <td>london</td>
+                    <td>B09</td>
+                </tr>
+                <tr>
+                    <td>8:30</td>
+                    <td>AC702</td>
+                    <td>toronto</td>
+                    <td>A16</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>About Us</h2>
+        <h4>overview </h4>
+        <p>What does Skyscanner do?
+            Skyscanner is a travel search engine, and as such, it's a tool that's been designed to help you find the
+            lowest possible rates on airfare and hotels without having to scour the Internet for lengthy periods of time
+        </p>
+        <h4>our commitment</h4>
+        <p>Its our mission to lead the global transformation to modern and sustainable travel.
+
+            That means pioneering new ways for you to explore effortlessly all while looking after our world.</p>
+        <h4>Contact Us</h4>
+        <p> <b>Correspondence address</b> <br>
+
+            Skyscanner Limited
+            Quartermile One
+            15 Lauriston Place
+            Edinburgh EH3 9EN
+            United Kingdom <br>
+
+            <b>Offices</b> <br>
+
+            United Kingdom, Singapore, Spain, China, United States, Japan <br>
+
+            <b>UK company number </b><br>
+
+            04217916 <br>
+        </p>
+
+        <h3>Popular Destinations Section</h3>
+        <h4>1. Dubai</h4>
+        <img src="/img/dbai.jpg" alt="" width="200">
+        <p>Dubai is the most populous city in the United Arab Emirates (UAE) and the capital of the Emirate of Dubai,
+            the most populated of the 7 emirates </p><br>
+        <h4>2. Maldives</h4>
+        <img src="/img/mal.jpg" alt="" width="200">
+        <p>What is Maldives known for?
+            Here Are 10 Indisputable Reasons To Visit Maldives In 2022
+            The Maldives is famous for a number of reasons, including its vibrant culture, pristine beaches, sprawling
+            greenery, and fascinating landmarks</p>
+    </div>
+    <h2>Frequently Asked Questions </h2>
+    <h5>Q1 what is overbooking </h5>
+    <p>Overbooked Flight means a flight where the number of passengers holding confirmed reservation and presented
+        themselves for check-in within the required time limit exceeds the number of available seats on that
+        flight/compartment.</p><br>
+
+    <h5>Q2 who can not claim for compensation </h5>
+    <p>Passengers who have been re-protected on other means shall not be paid with DBC if the delay at point of arrival
+        does not exceed four hours when compared to the original schedule.
+        Carriage is denied for reasons beyond the control of ET he/she is not checked in before or at the latest check
+        in time.</p>
+
+
+</body>
+
+</html>
